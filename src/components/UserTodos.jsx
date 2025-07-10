@@ -26,6 +26,8 @@ function UserTodos() {
                 setLoading(false);
             }
         };
+
+        // fetchUserAndTodos()
     
         if (userId) {
             fetchUserAndTodos();
